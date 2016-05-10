@@ -95,3 +95,63 @@ section.welcome {
 section.skills {
     text-align: center;
 }
+
+.skill-box {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+
+/****************
+     PROJECTS
+****************/
+section.projects {
+    background-color: #BFBFBF;
+    color: #eee;
+}
+
+section.projects .row {
+    display: table;
+    position: relative;
+    min-height: 400px; 
+}
+
+.project-desc {
+    display: table-cell;
+    vertical-align: top;
+}
+
+.project-desc h2 {
+    margin-top: 0;
+}
+
+.project-container {
+    display: table-cell;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.project-box {
+    display: inline-block;
+    margin: 0;
+    width: 32%;
+}
+
+.project-box img {
+    margin: 0;
+}
+
+/****************
+     PROCESS
+****************/
+
+section.work-process {
+    background-color: #6C7A89;
+}
+
+.work-box {
+    display: inline-block;
+    width: 23%;
+    -minheight: 5em;
+    border: 1px dotted #fff;
+}
