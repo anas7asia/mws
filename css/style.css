@@ -149,9 +149,18 @@ section.work-process {
     background-color: #6C7A89;
 }
 
+.work-process .container {
+   
+}
+
+.work-row_bottom {
+    display: table-cell;
+    width: 100%;
+    vertical-align: top;
+}
 .work-box {
     display: inline-block;
     width: 23%;
-    -minheight: 5em;
+    min-height: 5em;
     border: 1px dotted #fff;
 }
