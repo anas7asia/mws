@@ -1,0 +1,97 @@
+body {
+    margin: 0 !important;
+    padding: 0;
+    font-size: 16px;
+}
+
+.page-section {
+    padding: 5em;
+}
+
+.page-section h2 {
+    font-size: 1.4em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.standard-section h2 {
+    text-align: center;
+}
+
+/****************
+    NAVBAR
+****************/
+
+.navbar-custom {
+    padding: .8em;
+    background-color: #28373E;
+    border-radius: 0;
+}
+
+.navbar-custom a {
+    color: #BDC3C7;
+}
+
+.nav>li>a:hover,
+.nav>li>a:focus {
+    background-color: transparent;
+    color: #fff;
+}
+
+.navbar-custom .navbar-brand {
+    color: #1ed6cc;
+}
+
+/*override bootstrap style*/
+.navbar {
+    margin-bottom: 0; 
+}
+
+
+
+/****************
+     HEADER
+****************/
+
+header {
+    position: relative;
+    width: 100%;
+    height: 75vh;
+    background: #999 url(../img/baloon.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.header-content {
+    position: relative;
+    top: 40%;
+    -webkit-transform: translateY(40%);
+    transform: translateY(40%);
+    text-align: center;
+}
+
+.header-title {
+    margin: 0;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.header-text {
+    font-size: 1.3em;
+}
+
+/****************
+     WELCOME
+****************/
+
+section.welcome {
+    background-color: #fdfdfd;
+    text-align: center;
+}
+
+/****************
+     SKILLS
+****************/
+
+section.skills {
+    text-align: center;
+}
