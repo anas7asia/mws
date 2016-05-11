@@ -275,3 +275,15 @@ section.numbers {
     z-index: 3;
     height: 35em;
 }
+
+/****************
+     $BLOG
+****************/
+
+.blog-box {
+    display: inline-block;
+    width: 24%;
+    height: auto;
+    min-height: 300px;
+    background-color: aquamarine;
+}
